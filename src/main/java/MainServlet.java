@@ -30,7 +30,7 @@ public class MainServlet implements Servlet {
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
-        res.getWriter().println("Hello !!!");
+        res.getWriter().println("Hello Hello !!!");
         logger.info("it's worked");
     }
 
