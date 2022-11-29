@@ -16,7 +16,7 @@ public class ProductServlet implements Servlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-
+        this.servletConfig = servletConfig;
     }
 
     @Override
